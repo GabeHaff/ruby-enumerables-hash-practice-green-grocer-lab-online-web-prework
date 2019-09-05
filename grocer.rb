@@ -18,7 +18,7 @@ def apply_coupons(cart, coupons)
   coupons.each do |coupon| 
     item = coupon[:item]
     binding.pry 
-    
+    if 
 end
 
 def apply_clearance(cart)
