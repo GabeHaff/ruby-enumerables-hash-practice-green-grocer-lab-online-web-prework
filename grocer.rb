@@ -23,7 +23,8 @@ def apply_coupons(cart, coupons)
     cart[item][:count]-= coupon[:num]
     elsif && coupon[:item][:count]>=coupon[:num] && !cart["#{item} W/COUPON"]
 end
-
+end 
+end 
 def apply_clearance(cart)
   # code here
 end
