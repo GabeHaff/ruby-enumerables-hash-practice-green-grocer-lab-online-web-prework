@@ -19,7 +19,7 @@ def apply_coupons(cart, coupons)
     item = coupon[:item]
     binding.pry 
     if cart[item] && coupon[:item][:count]>=coupon[:num] && !cart["#{item} W/COUPON"]
-    cart["#{item} W/COUPON"] = {  
+    cart["#{item} W/COUPON"] = {price: , clearance: ,   
 end
 
 def apply_clearance(cart)
