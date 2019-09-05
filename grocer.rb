@@ -18,7 +18,7 @@ def apply_coupons(cart, coupons)
   coupons.each do |coupon| 
     item = coupon[:item]
     binding.pry 
-    if cart[item] && coupon[:item][:count]>=coupon[:num] && cart["#{item} W/COUPON"]
+    if cart[item] && coupon[:item][:count]>=coupon[:num] && !cart["#{item} W/COUPON"]
       
 end
 
