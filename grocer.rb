@@ -15,6 +15,12 @@ grocery_cart = {}
   grocery_cart
 end
 def apply_coupons(cart, coupons)
+  
+  
+  
+  
+  
+  
   coupons.each do |coupon| 
     item = coupon[:item]
     if cart has_key?(item) 
